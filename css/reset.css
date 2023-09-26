@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* box-sixing 제일 중요하다고 함 */
+
+    font-size: inherit;
+    font-weight: inherit;
+    /* inherit 태그 자세히 알기 */
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+p {
+    word-break: keep-all;
+}
+
+body {
+    line-height: 1;
+    /* line-height 중요함 */
+    color: #444;
+}
